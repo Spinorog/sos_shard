@@ -515,8 +515,8 @@ namespace Server
 
 		public static bool S_RichMerchants = false;
 		public static bool S_UseRemainingGold = true;
-		public static int S_MinMerchant = 500;
-		public static int S_MaxMerchant = 1000;
+		public static int S_MinMerchant = 1500;
+		public static int S_MaxMerchant = 3000;
 
 		// This setting is the percentage to decrease the prices of items that player characters sell to vendors. Zero disables this.
 
@@ -524,16 +524,16 @@ namespace Server
 
 		// If true, then prices will fluctuate based on how good an item is and what stats it has, as well as the material it is made from.
 
-		public static bool S_QualityPrices = false;
+		public static bool S_QualityPrices = true;
 
 		// If true, then players can buy merchant crates to lock down in their house to sell the items they craft.
 
-		public static bool S_MerchantCrates = false;
+		public static bool S_MerchantCrates = true;
 
 		// Increasing this number will increase the prices of items sold from vendors, by this percentage.
 		// So a setting of 50 will increase prices by 50%.
 
-		public static int S_PriceMore = 0;
+		public static int S_PriceMore = 25;
 
 		// Increasing this number will increase the prices of sold resources (ingots, wood, etc) by the percentage.
 		// So a setting of 50 will increase resource sold prices by 50%. WARNING: This will stack with the increased
